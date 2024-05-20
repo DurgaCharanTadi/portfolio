@@ -1,0 +1,29 @@
+.body{
+    position: relative;
+    top: 55px;
+    height: 100vh;
+    flex: 1;
+}
+html{
+    font-family:"acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.profile-card{
+    padding: 60px 50px 50px 50px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+}
+.bio{
+    padding: 25px 30px 16px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(25,25,25,.1);
+    flex-shrink: 0;
+    width: 300px;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

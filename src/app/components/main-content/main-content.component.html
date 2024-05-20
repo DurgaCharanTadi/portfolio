@@ -1,0 +1,9 @@
+<div class="main-contents-tabs">
+    <a routerLink="/" routerLinkActive="active-tab" [routerLinkActiveOptions]="{exact: true}">Experience</a>
+    <a routerLink="/education" routerLinkActive="active-tab">Education</a>
+    <a routerLink="/certifications" routerLinkActive="active-tab">Certifications</a>   
+
+    <div class="main-content-details">
+        <router-outlet></router-outlet>
+    </div>
+</div>

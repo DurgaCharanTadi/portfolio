@@ -1,0 +1,27 @@
+.main-contents-tabs{
+    position: relative;
+    top: 300px;
+    left: 25px;
+}
+.active-tab, .active-tab:hover{
+    color: #fff!important;
+    background: rgb(25, 25, 25)!important;
+    border-radius: 100px;
+    font-weight: 500!important;
+}
+.main-contents-tabs a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.main-contents-tabs a:hover{
+    background: #c7c7c7;
+    border-radius: 100px;
+}
+.main-content-details{
+    margin: 20px 10px;
+}

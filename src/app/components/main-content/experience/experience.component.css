@@ -1,0 +1,26 @@
+.experience-div{
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+} 
+#firm-details{
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+    display: contents;
+    margin-bottom: 10px;
+}
+h4{ 
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.experience-div span{
+    padding-top: 10px;
+}
+#responsibilities{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#about-me{
+    font-size: 15px;
+    letter-spacing: 1px;
+}

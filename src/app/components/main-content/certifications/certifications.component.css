@@ -1,0 +1,26 @@
+.education-card {
+    width: 45%;
+    margin: 10px;
+    max-height: 400px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #cfcfcf;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}  
+.education-blocks{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+} 
+#cumberlands-logo{
+    width: 250px;
+}
+#hood-college-logo, #jntuk-logo{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+.mat-card-subtitle{
+    font-size: 15px!important;
+}

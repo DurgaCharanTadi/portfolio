@@ -1,0 +1,71 @@
+.profile-photo{
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+}
+.bio-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+h2{
+    margin: 10px 0;
+}
+#role-details{
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+    display: contents;
+}
+#role-details p{
+    margin: 2px 0;
+}
+.location-icon{
+    height: 14px;
+    color: color rgb(105, 105, 105);
+}
+.location-div, .connect-div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 15px 0;
+}
+#connect-linkedin{
+    color: #fff;
+    background: #0057ff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+.connect-div button{
+    width: 240px;
+}
+.skills-div{
+    margin: 10px 0;
+    padding: 10px 20px 6px 20px;
+    border: 1px solid rgb(222, 232, 255);
+    width: 220px;
+    border-radius: 5px;
+}
+.skills-header{
+    border-bottom: 1px solid rgb(222, 232, 255);
+    padding-bottom: 5px;
+}
+.skills-div p{
+    margin-top: 5px;
+}
+.skills-div{
+    color: #191919;
+    font-size: 16px!important;
+}
+.skills-header{
+    font-weight: 600;
+}
+.skills-list{
+    font-size: 14px;
+}
+.skills-list p{
+    padding: 5px 0;
+}
