@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   openMyResume(){
-    window.open('https://durgacharantadi.github.io/portfolio/assets/files/DurgaCharan_Tadi_Resume.pdf','_blank');
+    window.open('assets/files/DurgaCharan_Tadi_Resume.pdf','_blank');
   }
 } 
