@@ -35,7 +35,7 @@ html{
         width: auto;
     }
   }
-@media (min-width: 801px) and (max-width: 2000px) {
+@media (min-width: 801px) {
     .profile-card{
         padding: 60px 50px 50px 50px;
         display: flex;
@@ -45,5 +45,30 @@ html{
     }
     .bio{
         width: 300px;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1599px){
+    app-main-content{
+        position: relative;
+        top: 20px; 
+    }
+}
+@media (min-width: 1600px) and (max-width: 1799px){
+    app-main-content{
+        position: relative;
+        top: 100px; 
+    }
+}
+
+@media (min-width: 1800px)  and (max-width: 2000px){
+    app-main-content{
+        position: relative;
+        top: 150px; 
+    }
+}
+@media (min-width: 2001px){
+    app-main-content{
+        position: relative;
+        top: 300px; 
     }
 }
