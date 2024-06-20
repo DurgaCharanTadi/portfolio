@@ -1,0 +1,39 @@
+.education-card {
+    margin: 10px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px #cfcfcf;
+    font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}  
+.education-blocks{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+} 
+#cumberlands-logo{
+    width: 250px;
+}
+#cumberlands-logo:hover{
+    cursor: pointer;
+}
+#hood-college-logo, #jntuk-logo{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.mat-card-subtitle{
+    font-size: 15px!important;
+}
+
+@media (min-width: 100px) and (max-width: 800px) {
+    .education-card {
+        width: 100%;
+    }
+}
+@media (min-width: 801px){
+    .education-card {
+        width: 45%;
+    }
+}
